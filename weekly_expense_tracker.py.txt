@@ -1,0 +1,75 @@
+# Homework2_MaxGomez
+
+# Variables that will be used for the counters
+trackfood = 0
+trackgas = 0
+
+# Monday
+fooddays = int(input("Please enter the amount spent on food on Monday : \n"))
+if (fooddays > 20):
+    trackfood = trackfood + 1
+
+gasdays = int(input("Please enter the amount spent on gas on Monday : \n"))
+if (gasdays > 10):
+    trackgas = trackgas + 1
+
+# Tuesday
+fooddays = int(input("Please enter the amount spent on food on Tuesday : \n"))
+if (fooddays > 20):
+    trackfood = trackfood + 1
+
+gasdays = int(input("Please enter the amount spent on gas on Tuesday : \n"))
+if (gasdays > 10):
+    trackgas = trackgas + 1
+
+# Wednesday
+fooddays = int(input("Please enter the amount spent on food on Wednesday : \n"))
+if (fooddays > 20):
+    trackfood = trackfood + 1
+
+gasdays = int(input("Please enter the amount spent on gas on Wednesday : \n"))
+if (gasdays > 10):
+    trackgas = trackgas + 1
+
+# Thursday
+fooddays = int(input("Please enter the amount spent on food on Thursday : \n"))
+if (fooddays > 20):
+    trackfood = trackfood + 1
+
+gasdays = int(input("Please enter the amount spent on gas on Thursday : \n"))
+if (gasdays > 10):
+    trackgas = trackgas + 1
+
+# Friday
+fooddays = int(input("Please enter the amount spent on food on Friday : \n"))
+if (fooddays > 20):
+    trackfood = trackfood + 1
+
+gasdays = int(input("Please enter the amount spent on gas on Friday : \n"))
+if (gasdays > 10):
+    trackgas = trackgas + 1
+
+# Saturday
+fooddays = int(input("Please enter the amount spent on food on Saturday : \n"))
+if (fooddays > 20):
+    trackfood = trackfood + 1
+
+gasdays = int(input("Please enter the amount spent on gas on Saturday : \n"))
+if (gasdays > 10):
+    trackgas = trackgas + 1
+
+# Sunday
+fooddays = int(input("Please enter the amount spent on food on Sunday : \n"))
+if (fooddays > 20):
+    trackfood = trackfood + 1
+
+gasdays = int(input("Please enter the amount spent on gas on Sunday : \n"))
+if (gasdays > 10):
+    trackgas = trackgas + 1
+
+# Display results
+print("You spent more than 20 dollars per day on food in " +
+      str(trackfood) + " days of the week.")
+
+print("You spent more than 10 dollars per day on gas in " +
+      str(trackgas) + " days of the week.")
