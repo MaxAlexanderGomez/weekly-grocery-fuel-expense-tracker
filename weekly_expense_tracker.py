@@ -1,4 +1,4 @@
-# Homework2_MaxGomez
+# MaxGomez
 
 # Variables that will be used for the counters
 trackfood = 0
